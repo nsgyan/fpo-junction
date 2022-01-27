@@ -1,0 +1,816 @@
+body {
+color:#4c4c4c;
+//font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+//font-family: 'Droid Sans', sans-serif;
+//font-family: 'Ek Mukta', sans-serif;
+//font-family: 'Work Sans', sans-serif;
+}
+body p {
+font-size:.9em;
+line-height:1.6em;
+color: #4c4c4c;
+}
+body dd {
+font-size:.9em;
+line-height:1.6em;
+margin-bottom: 1.5rem;
+color: #4c4c4c;
+}
+
+body dl {
+margin-top:1em;
+}
+.container-fluid {
+padding:0px;
+margin:0px;
+overflow:hidden;
+}
+.banner {
+position:relative;
+}
+.Homesearch {
+position:absolute;
+top:35%;
+left:10%;
+width: 100%;
+}
+.SearchBox {
+    background-color: rgba(14,7,0,0.55);
+    padding: 29px 10px 10px 10px;
+    margin: 0px 15%;
+}
+.SearchBox .btn {
+    background-color: #ea9d26;
+	color: #ece6e6;
+}
+ol, ul {
+padding:0px;
+}
+/*********************Slider***********************/
+.bannertagline {
+    color: #fff;
+    margin-bottom: 1%;
+    position: relative;
+    top: 40%;
+	    font-size: 36px;
+}
+
+.searchMsg {
+color: #dacfcf;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 4px;
+}
+.homeBanner {
+margin: 0px 0px 25px 0px;
+}
+.banner img {
+width: 100%;
+min-height: 390px;
+}
+.eventBanner img{
+max-height:176px;
+}
+/***************************Bottom Banner Link************************/
+
+.bannerBottomLink .welcomeMSG
+{
+background: url(http://updpl.org/assets/front/img/welcome-bg.jpg) no-repeat;
+background-size: cover;
+}
+.bannerBottomLink .welcomeMSG h2 
+{
+padding:20px 0px;
+}
+.bannerBottomLink img {
+width:100%;
+}
+.bannerBottomLink {
+color:#fff;
+	padding:0px;
+}
+.bannerBottomLink .col-md-2 {
+padding:0px;
+}
+.keyMember img {
+    border: 1px solid #933dfe;
+	}
+.keyFunctionaries .row {
+margin-bottom:7px;
+}
+.keyFunctionaries {
+background-color: rgba(236, 236, 236, 0.48);
+}
+.keyFunctionaries h4{
+background-color: #ececec;
+    padding: 7px 0px 7px 10px;
+	margin-bottom:.2rem;
+    color: #2e2e2e;
+    border-left: 2px solid #933dfe;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.memberDetail {
+margin-top:1.9em;
+}
+.memberDetail p {
+margin-bottom: 0px;
+    color: #8a8989;
+    font-size: 0.7em;
+    line-height: 2em;
+}
+.memberName {
+color: #fa600a;
+    margin-bottom: 0.1em;
+	    font-size: 1.1em;
+	}
+.newsDate {
+padding-bottom:5px;
+border-bottom: 1px dotted #908f8f;
+color:#6f6f6f;
+}
+/***********************Owl Slider***************************/
+.latestBlog .item {
+margin:5%;
+}
+.staffPics .item {
+margin:5%;
+}
+#featuredBooks .item {
+margin:5%;
+}
+#newArrival  .item {
+margin:5%;
+}
+/*****************News Scroller***********************/
+.newstape {
+  background-color: #fff;
+  height: 450px;
+  overflow-y: scroll;
+  border: 1px solid #ececec;
+  border-top: 0;
+  line-height:1.5rem;
+}
+.news-block {
+padding:0 0 .8rem 0 ;
+}
+.newstape .newsTitle {
+	font-size:1rem;
+	margin-bottom:.2rem;
+	color: #fa600a;
+}
+.newstape-content {
+  position: relative;
+  padding: 13px;
+}
+.latestNews {
+margin-bottom: 4%;
+}
+.latestNews h4{
+background-color: #ececec;
+    padding: 7px 0px 7px 10px;
+    color: #2e2e2e;
+    border-left: 2px solid #933dfe;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.latestNews .row {
+margin-bottom:7px;
+}
+.latestNews p{
+line-height: 1em;
+    font-size: .8em;
+	margin-bottom:0px;
+	}
+	
+p.newsDate {
+padding-bottom:.8rem;
+padding-top:.3rem;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/*********************TopLibrary************************/
+.TopLibraryBox h4{
+background-color: #ececec;
+    padding: 7px 0px 7px 10px;
+	margin-bottom:.2rem;
+    color: #2e2e2e;
+    border-left: 2px solid #933dfe;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.TopLibrary .carousel-item img {
+max-height: 150px;
+    width: 100%;
+}
+.topLib-title {
+    font-size: 1rem;
+    margin-top: 2%;
+    color: #252525;
+    font-weight: 600;
+}
+.carousel .carousel-control { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+/*****************Pages list style***********************/
+#pagecontent ul li{
+list-style: initial;
+font-size:.9em;
+}
+#pagecontent ol li{
+list-style: decimal;
+font-size:.9em;
+}
+
+
+/*****************Breadcrumb***********************/
+.breadcrumb {
+background-image:url(http://theme-nulled.in/demo/public-library/assets/front/img/banner-inner.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 3rem 1rem;
+margin-bottom:3%;
+}
+.breadcrumb-title {
+color: #4c4c4c;
+}
+#upheritage.breadcrumb {
+background-image:url(http://updpl.org/assets/front/img/heritage-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#NetworkSection.breadcrumb {
+background-image:url(http://uppl.org.in/assets/front/img/network-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#EducationSection.breadcrumb {
+background-image:url(http://uppl.org.in/assets/front/img/education-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#ScienceSection.breadcrumb {
+background-image:url(http://uppl.org.in/assets/front/img/science-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#ArtCultureSection.breadcrumb {
+background-image:url(http://uppl.org.in/assets/front/img/Art-culture-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#sons_dance.breadcrumb {
+background-image:url(http://updpl.org/assets/front/img/dance-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#festivPage.breadcrumb {
+background-image:url(http://updpl.org/assets/front/img/festival-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#literaturePage.breadcrumb {
+background-image:url(http://updpl.org/assets/front/img/litrature-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#museumsPage.breadcrumb {
+background-image:url(http://updpl.org/assets/front/img/Museum-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+#manuscriptsPage.breadcrumb {
+background-image:url(http://updpl.org/assets/front/img/manuscripts-banners.jpg);
+background-size:cover;
+border-radius: 0;
+padding: 4rem 1rem;
+margin-bottom:3%;
+}
+/*********************Back To Top***********************/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+/*********************External link*******************************/
+#owl-demo .item{
+        padding: 5px;
+		border: 1px solid #dad9d9;
+        margin: 10px 2px;
+        color: #FFF;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        text-align: center;
+    }
+    .customNavigation{
+      text-align: center;
+    }
+    .customNavigation a{
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+//use styles below to disable ugly selection
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/**************************Main Heading******************************/
+#mainHeading {
+background-color: #ececec;
+    padding: 15px 0px 12px 10px;
+    color: #4c4c4c;
+    border-left: 2px solid #933dfe;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+/**********hover effect*************/
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 78%;
+  left: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(170,170,170,0.4);
+}
+
+.hovereffect h2, .hovereffect img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/***************external-link logo**************************/
+.external-link img {
+width:80%;
+margin:80px;
+}
+
+/*************************Single library page******************************/
+#singleLibName img{
+width:100%;
+margin-bottom:1%;
+}
+.singleLibraryLink a li.active {
+background-color: #933dfe;
+    padding: 12px 0px 10px 10px;
+    color: #4c4c4c;
+    margin-bottom: 5px;
+    border-left: 2px solid #933dfe;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.singleLibraryLink a li {
+background-color: #ececec;
+    padding: 12px 0px 10px 10px;
+    color: #4c4c4c;
+    margin-bottom: 5px;
+    border-left: 2px solid #933dfe;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+	list-style:none !important;
+	}
+.singleLibraryLink a li.active {
+color: #fff;
+}
+.singleLibraryLink a li {
+color: #933dfe;
+}
+.singleLibraryLink a {
+text-decoration: none;
+}
+
+.singleLibraryLink a li:hover {
+background-color: #933dfe;
+    padding: 12px 0px 10px 10px;
+    color: #fff;
+    margin-bottom: 5px;
+    border-left: 2px solid #933dfe;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/*********************District Libraries*********************/
+.districtLibraries .card {
+    position: relative;
+    display: block;
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border: 1px solid #933dfe;
+    border-radius: .25rem;
+    min-height: 180px;
+}
+.districtLibraries .card-title-head {
+background-color: #933dfe;
+    padding: 15px;
+	    color: #fff;
+}
+.card a .info-link {
+    color: #fff;
+    margin-left: 10px;
+}
+/**********************Resorce Page************************/
+.ResourceBox .panel-heading {
+border-bottom: 1px solid #0275d8;
+}
+.ResourceBox .fa {
+font-size:25px;
+}
+.ResourceBox a .fa {
+color:#ff4040;
+}
+.ResourceBox a[aria-hidden="true"] {
+color: #fff !important;
+}
+#Ejournals table td:nth-child(2) {
+text-align:center;
+}
+/***********************Right Sidebar********************************/
+.sidebarTab .latestNews {
+padding:0px;
+margin-top:5px;
+}
+.sidebarTab .newstape{
+background-color: #fff;
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid #ececec;
+    border-top: 0;
+    line-height: 1.5rem;
+}
+.sidebarTab .newstape .newsTitle {
+font-size: .7rem;
+    margin-bottom: .2rem;
+    color: #fa600a;
+}
+.sidebarTab .latestNews p {
+    line-height: .5em;
+    font-size: .6em;
+    margin-bottom: 0px;
+}
+.sidebarTabBox {
+border: 1px solid #fbc736;
+    padding: 10px 5px;
+    margin-bottom: 1%;
+    background: -webkit-linear-gradient(left, #efa931, rgba(230, 202, 3, 0.62));
+}
+.sidebarTabBox:hover{
+    border: 1px solid #fbc736;
+    padding: 10px 5px;
+    margin-bottom: 1%;
+    background: -webkit-linear-gradient(left, #dea139, rgba(230, 202, 3, 0.87));
+}
+.sidebarTabBox img {
+    width: 40px;
+}
+.sidebarTabBoxText {
+    color: #5f5f5f;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 6%;
+    margin-top: 2.5%;
+}
+/*********************Single Book Page*******************************/
+#myLibraryPage .item {
+margin-bottom: 10%;
+    min-height: 200px;
+}
+#myLibraryPage h4 {
+font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 6px 0px;
+    color: #000;
+	}
+.bookIMG img {
+width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+}
+.bookIMG input[type="image"] {
+width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    text-align: center;
+    padding: 5px;
+    background-color: #e6e6b9;
+}
+.bookIMG input[type="submit"] {
+font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-top: 6%;
+    color: #252525;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border: none;
+    background-color: #fff;
+}
+p.bookTitle {
+font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-top: 6%;
+    color: #252525;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.singleBookPage p {
+margin-bottom:0px;
+}
+/***********************My Library********************************/
+#myLibraryPage .bannerIMG img{
+width:100%;
+height: 250px;
+margin: 1em auto;
+}
+#myLibraryPage p {
+margin-bottom:0px;
+}
+#myLibraryPage .owl-carousel {
+overflow:hidden;
+;
+}
+#myLibraryPage .owl-carousel .owl-item img {
+    display: block;
+    text-align: center;
+	    padding: 5px;
+    background-color: #e6e6b9;
+}
+#myLibraryPage .owl-carousel .owl-item {
+margin: 0px 5px;
+}
+/***********************Login & Registration********************************/
+.login-container .white{
+background-color: #eaeaea;
+margin-top: 3%;
+margin-bottom: 3%;
+padding: 30px;
+}
+.login-container .normal {
+margin-bottom:3%;
+}
+.login-container .form-control {
+display: block;
+    width: 100%;
+    padding: .275rem .75rem;
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+	margin-bottom:1%;
+}
+.login-container .control-group  {
+margin-top: 2%;
+}
+.control-group span {
+font-size:12px;
+}
+p.orSection {
+margin-bottom:0px !important;
+}
+.loginBtn {
+background-color: #933dfe !important;
+    color: #fff !important;
+    padding: 3px 10px !important;
+}
+.otpBtn {
+    background-color: #d4a147 !important;
+    border: 1px solid #d4a147 !important;
+    color: #f3f3f3 !important;
+}
+
+/*******************Event card***************************/
+.event_card {
+    margin-bottom: 30px;
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+}
+.event_card h4 {
+    background-color: #313B3D;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    color: #FFF;
+    font-size: 16px;
+}
+.event_card h4 a {
+    color: #FFF;
+	text-decoration: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+.event_card li {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px dotted #EFEFEF;
+    padding: 6px 0;
+}
+.event_card label {
+    color: #dd3333;
+    width: 120px !important;
+}
+.event_card label i {
+    margin-right: 10px;
+}
+/*******************Library card***************************/
+.libraryCardform .form-control {
+width: 100%;
+    padding: .275rem .75rem;
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+	margin-bottom:4%;
+}
+.libraryCardform  input[type=date].form-control {
+    padding: 4px;
+	    line-height: 1rem;
+	}
+	
+#cardHome .modal-dialog {
+width: 775px;
+    margin: 30px auto;
+	}
+/*****************Contact Page*****************************/	
+.EnquiryForm label {
+font-size:.8em;
+}
+.EnquiryForm .form-control {
+font-size:.8em;
+}
+/*****************Services Page*****************************/
+#Genservices p, #Eduservices p, #Empservices p{
+margin-bottom:0px;
+}
+.ServiceBox .blockquote{
+        padding: .5rem .5rem;
+    margin-bottom: .2rem;
+    font-size: 1.25rem;
+    border-left: .25rem solid #d2d2d2;
+    background-color: #eae7e7;
+}
+.ServiceBox .blockquote p {
+    font-size: .8em;
+    line-height: 1.2em;
+    color: #3f3a3e;
+}
+.ServiceBox .blockquote-footer a {
+color: #de9300;
+    font-size: 14px;
+    font-style: italic;
+	}
+.ServiceBox .blockquote-footer::before {
+    content: "";
+}
+/*****************Chairmans MSG Page*****************************/
+#charemanMSG .blockquote{
+        padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    border-left: .25rem solid #d2d2d2;
+    background-color: #f5f5f5;
+}
+#charemanMSG .blockquote p {
+        font-size: .7em;
+    line-height: 1.4em;
+    color: #7b7676;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+#charemanMSG .blockquote-footer {
+    display: block;
+    font-size: 65%;
+    line-height: 1.5;
+    color: #b58a05;
+}
+/*****************Egranthalaya***************************/
+#egTable .table {
+font-size:12px;
+}
+#egTable .table td, #egTable .table th {
+padding:5px;
+}
+#egTable .table td:first-child, #egTable .table td:last-child{
+text-align:center;
+}
+/*****************Other Library******************/
+#otherLibrary .libImage {
+width: 20%;
+    height: 100px;
+    border: 1px solid #ca8d23;
+    float: left;
+    margin: 5px 11px 0px 0px;
+}
+#otherLibrary .clearfix {
+margin-bottom:15px;
+}
+/***********************SKS******************************/
+.mt20 {margin-top:20px; }
+.mt50 {margin-top:50px; }
+.mt100 {margin-top:100px; }
+.mb20 {margin-bottom:20px; }
+.mb50 {margin-bottom:50px; }
+.mb100 {margin-bottom:100px; }
+.scheme-tab .img-scheme {max-height:130px; }
+.notification { width: auto; height: auto; background: #e2c527; position: relative; display: inline-block; padding: 5px 8px;}
