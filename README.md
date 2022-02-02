@@ -1,2 +1,0 @@
-# fpo-junction
-Gyan
