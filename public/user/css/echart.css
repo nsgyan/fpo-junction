@@ -1,0 +1,30 @@
+
+.material-charts-box-chart-horizontal-label {
+    position: absolute;
+    font-size: 12px;
+    width: 0px;
+    bottom: 0% !important;
+    height: 0px;
+    transform: rotate(70deg);
+	    margin-left: .6% !important;
+}
+.material-charts-box-chart-vertical-bar {
+	bottom:0px !important;
+}
+.material-charts-box-chart-x-axis {
+	bottom:0px !important;
+}
+.material-charts-chart-area {
+    position: relative;
+    color: #666666;
+    background-color: #d8c4a9 !important;
+}
+.material-charts-chart-title {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 28px;
+}

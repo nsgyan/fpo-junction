@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+form#record.studentrecord input.form-control{
+	    border-radius:0px !important;
+		background: none;
+		border: 1px solid #8c8585;
+}
+form#record.studentrecord select.form-control{
+	    border-radius:0px !important;
+		background: none;
+		border: 1px solid #8c8585;
+}
+form#record.studentrecord textarea.form-control{
+	    border-radius:0px !important;
+		background: none;
+		border: 1px solid #8c8585;
+}
+form#record.studentrecord div.form-group label{
+	color: #999;
+	font-size: 16px;
+}
+p.messagebox{
+	font-size: 12px;
+	color: #999;
+}
+button.submitbtn{
+	  border-radius:0px !important;
+		background: none;
+		border: 2px solid #0d87a2;
+		padding: 7px 50px;
+		color: #0d87a2;
+}

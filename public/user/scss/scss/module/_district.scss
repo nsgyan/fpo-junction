@@ -1,0 +1,71 @@
+ol, ul, li {
+    list-style: none;
+}
+.result-item {
+    border: 1px solid rgba(255, 118, 56, 0.32);
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 25px;
+}
+.result-item .result-score, .result-item .result-info {
+    align-self: center;
+    width: 50%;
+}
+.result-item .result-score {
+    align-self: stretch;
+    background-image: url(../img/result-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+	opacity: .8;
+    overflow: hidden;
+    padding: 0 100px 0 45px;
+    position: relative;
+}
+.result-item .result-score:after {
+    background: url(../img/result-swish.png) no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 35%;
+}
+.result-item .result-info {
+    padding: 20px 0px;;
+}
+.result-item .result-score-container {
+    align-items: center;
+    display: flex;
+}
+ul.resultsMatches {
+padding:0px 15px;
+}
+.result-info p{
+margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 22px;
+}
+.districtHeading {
+color:#000;
+}
+h3.LibraryName{
+margin-bottom:0px;
+}
+.btn-library {
+color: #fff;
+    border-radius: 0px;
+	padding: 8px 20px;
+    background-color: rgba(2, 117, 216, 0.91);
+    border-color: rgba(2, 117, 216, 0.91);
+}
+
+.btn-library:hover {
+color: #fff;
+    border-radius: 0px;
+	padding: 8px 20px;
+    background-color: rgba(2, 117, 216, 0.75);
+    border-color: rgba(2, 117, 216, 0.75);
+}

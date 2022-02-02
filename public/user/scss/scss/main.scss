@@ -1,0 +1,22 @@
+/*
+Troology Bootstrap 
+Author: Gyanendra Singh GNS
+Version: 0.0.1 
+*/
+
+/*Base CSS*/
+@import 'base/_color.scss';
+@import 'base/_font.scss';
+
+/*Layout Css*/
+@import 'layout/_header.scss';
+@import 'layout/_menu.scss';
+@import 'layout/_footer.scss';
+
+/*Module CSS*/
+@import 'module/_button.scss';
+@import 'module/_district.scss';
+@import 'module/_section.scss';
+
+/*My Style Css*/
+@import 'base/_style.scss';

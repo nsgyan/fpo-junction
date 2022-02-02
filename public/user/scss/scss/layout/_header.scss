@@ -1,0 +1,142 @@
+.topbar {
+background-color:#000;
+min-height: 40px;
+padding-top: 7px;
+}
+.topbar .timeDate {
+color:#d4cd5a;
+font-weight: 100;
+    font-size: 13px;
+}
+.topMenu ul {
+margin-bottom:0px;
+}
+.topMenu ul li {
+display:inline;
+font-size:13px;
+}
+.topMenu ul li a{
+color:#fff;
+text-decoration: none;
+    font-weight: 300;
+}
+.topbar-devider {
+    border-right: solid 1px #bbb;
+	font-size: 10px !important;
+    margin: 0px 6px 0px 2px;
+}
+.switcher ul {
+margin-bottom:0px;
+}
+.switcher ul li {
+display:inline;
+}
+.switcher ul li a {
+color:#000;
+text-decoration: none;
+    font-weight: 300;
+	background-color:#fff;
+	font-size:12px;
+	}
+.switcher ul li a.small{
+padding: 0px 3px;
+}
+.switcher ul li a.normal{
+padding: 0px 4px;
+}
+.switcher ul li a.larg{
+padding: 0px 1px;
+}
+.switcher ul li a.color1{
+padding: 0px 4px;
+background-color:#a63cf6;
+color:#fff !important;
+}
+.switcher ul li a.color2{
+padding: 0px 4px;
+background-color:#ffe10e;
+}
+/****************LOGO section*******************/
+.branding {
+min-height:100px;
+}
+.logo {
+    margin: 4px;
+	}
+.svsv-logo {
+margin: .6rem;
+    width: 35%;
+	}
+	
+.uplogo{
+margin: 5px;
+}
+.searchBox {
+background-color:#efefef;
+    padding: 20px;
+}
+.searchBox .searchHeading {
+margin-bottom: 0px;
+    font-weight: 700;
+}
+.searchBox .searchMsg {
+margin-bottom: 3px;
+    font-size: 12px;
+    color: #000;
+}
+.searchBox .form-control {
+    padding: 3px;
+	font-size:12px;
+	}
+.searchBox .btn {
+padding: 3px 14px;
+	font-size:12px;
+}
+.searchBox .btn-success {
+    color: #fff;
+    background-color: #933dfe;
+    border-color: #933dfe;
+}
+
+/**********Menu Nevigation************/
+.nevigationBar .nav-link {
+color:#fff !important;
+    text-transform: uppercase;
+	    font-size: 15px;
+		cursor: pointer;
+}
+.nevigationBar .navbar {
+border-radius:0px !important;
+}
+.navbar.navbar-light {
+background-color: #933dfe;
+}
+.nevigationBar .topbar-devider {
+    border-right: solid 1px #bbb;
+	font-size: 10px !important;
+    margin: 13px 6px 0px 2px;
+}
+.dropdown-menu {
+background-color: #933dfe;
+border-radius:0px;
+border:none;
+margin: 9px 0 0;
+padding: 0px 0;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dropdown-item {
+padding: 10px 20px;
+	border-bottom: 1px solid #741de0;
+    color: #ffffff;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #dc6117;
+} 
+.navbar-nav .nav-item+.nav-item {
+    margin-left: 0.7rem;
+}
